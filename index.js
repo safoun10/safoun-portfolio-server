@@ -11,8 +11,8 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/download', (req, res) => {
-    const filePath = 'Resume_of_MD_Sultan_Mahmud_Safoun_10.pdf'; //  The actual file path
-    const fileName = 'Resume_of_MD_Sultan_Mahmud_Safoun_10.pdf'; //  The desired file name for download
+    const filePath = "MD_Sultan_Mahmud_Safoun's_resume.pdf"; //  The actual file path
+    const fileName = "MD_Sultan_Mahmud_Safoun's_resume.pdf"; //  The desired file name for download
 
     const file = path.resolve(filePath);
 
